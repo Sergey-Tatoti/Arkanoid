@@ -28,6 +28,7 @@ public class SceneTransition : MonoBehaviour
 
     private IEnumerator LoadScene(int index)
     {
+        Time.timeScale = 1.0f;
         ShowPanel(false);
 
         yield return new WaitForSeconds(_durationShowPanel);

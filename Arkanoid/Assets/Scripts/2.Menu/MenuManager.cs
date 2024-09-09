@@ -6,7 +6,7 @@ public class MenuManager : MonoBehaviour
     [Header("Компоненты Меню")]
     [SerializeField] private MenuUI _menuUI;
     [SerializeField] private MenuBackGround _menuBackGround;
-    [SerializeField] private PlayerMenu _player;
+    [SerializeField] private BallMenu _ball;
     [SerializeField] private GameSaves _gameSaves;
     [SerializeField] private SoundManager _soundManager;
     [SerializeField] private SceneTransition _sceneTransition;
@@ -49,8 +49,9 @@ public class MenuManager : MonoBehaviour
 
     private void SetValuesAfterLoading()
     {
+        _soundManager.UseSound(SoundManager.Type.MainMusic);
         _menuBackGround.SetValue(_speedBackGround);
-        _player.StartRotate(_durationRotatePlayer, _offsetRotationZ);
+        _ball.StartRotate(_durationRotatePlayer, _offsetRotationZ);
 
         for (int i = 0; i < _apples.Count; i++) { _apples[i].SetValue(_timeReloadApple); }
     }

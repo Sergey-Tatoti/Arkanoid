@@ -8,9 +8,9 @@ using UnityEngine.UI;
 public class GameMenuUI : MonoBehaviour
 {
     [Header("Тексты")]
-    [SerializeField] private TMP_Text _stageText;
-    [SerializeField] private TMP_Text _shootText;
-    [SerializeField] private string _stage = "Stage";
+    [SerializeField] private TMP_Text _blockText;
+    [SerializeField] private TMP_Text _lifeText;
+    [SerializeField] private string _block = "Block";
     [Header("Кнопки")]
     [SerializeField] private List<Button> _buttonsRestart;
     [SerializeField] private List<Button> _buttonsHome;
@@ -57,16 +57,17 @@ public class GameMenuUI : MonoBehaviour
         for (int i = 0; i < _buttonsHome.Count; i++) { _buttonsHome[i].onClick.RemoveListener(() => ClickedButtonHome?.Invoke()); }
     }
 
-    public void SetValue(int stage, int shoot)
+    public void SetValue(int stage, int life)
     {
-        _stageText.text = _stage + " " + stage.ToString();
-        _shootText.text = shoot.ToString();
+        _blockText.text = _block + " " + stage.ToString();
+        _lifeText.text = life.ToString();
     }
 
     public void ShowResultPanel(bool isWin) 
     { 
         _panelWinGame.gameObject.SetActive(isWin); 
         _panelLoseGame.gameObject.SetActive(!isWin);
+        Time.timeScale = 0;
     }
 
     public void ChangeButtonSound(bool isOnMusic)

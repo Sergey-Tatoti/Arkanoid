@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,14 +5,20 @@ public class GamePlayMamager : MonoBehaviour
 {
     [Header("Компоненты Меню")]
     [SerializeField] private GameMenuUI _menuUI;
+    [SerializeField] private BlockManager _blockManager;
     [SerializeField] private Ball _ball;
+    [SerializeField] private Player _player;
     [SerializeField] private GameSaves _gameSaves;
     [SerializeField] private SoundManager _soundManager;
     [SerializeField] private SceneTransition _sceneTransition;
+    [SerializeField] private List<Stage> _stages = new List<Stage>();
+    [SerializeField] private int _countLife = 3;
+    [SerializeField] private float _offsetPositionBallY;
 
     private int _numberStage;
-    private int _countShoot;
     private int _countBlock;
+    private Stage _stage;
+    private bool _isPlay = true;
 
     private void OnEnable()
     {
@@ -25,8 +30,7 @@ public class GamePlayMamager : MonoBehaviour
         _menuUI.ClickedButtonRestart += OnClickedButtonRestart;
         _menuUI.ClickedButtonHome += OnClickedButtonHome;
         _ball.TouchedObject += OnTouchedObject;
-        _ball.DestroyedBlock += OnDestroyedBlock;
-        _ball.TouchedPlatform += OnTouchedPlatform;
+        _ball.TouchedGameDestroyer += OnTouchedBallGameDestroyer;
     }
 
     private void OnDisable()
@@ -38,13 +42,34 @@ public class GamePlayMamager : MonoBehaviour
         _menuUI.ClickedButtonRestart -= OnClickedButtonRestart;
         _menuUI.ClickedButtonHome -= OnClickedButtonHome;
         _ball.TouchedObject -= OnTouchedObject;
-        _ball.DestroyedBlock -= OnDestroyedBlock;
-        _ball.TouchedPlatform -= OnTouchedPlatform;
+        _ball.TouchedGameDestroyer -= OnTouchedBallGameDestroyer;
+        _stage.DestroyedBlock -= OnDestroyedBlock;
     }
 
     private void SetValuesAfterLoading()
     {
-        _menuUI.SetValue(_numberStage, _countShoot);
+        SetStage();
+        _countBlock = _stage.GetCountWorkBlocks();
+
+        _soundManager.UseSound(SoundManager.Type.GameMusic);
+        _menuUI.SetValue(_countBlock, _countLife);
+        _player.SetValue();
+        _stage.SetValue(_blockManager);
+        _ball.SetPosition(_player, _offsetPositionBallY);
+        _stage.gameObject.SetActive(true);
+
+        _stage.DestroyedBlock += OnDestroyedBlock;
+    }
+
+    private void Update()
+    {
+        if (_isPlay)
+        {
+            _player.MovePlatform();
+
+            if (Input.GetKey(KeyCode.Space))
+                _ball.TryActivate();
+        }
     }
 
     #region OnClicked
@@ -53,9 +78,9 @@ public class GamePlayMamager : MonoBehaviour
 
     private void OnClickedButton() => _soundManager.UseSound(SoundManager.Type.SoundClickedButton);
 
-    private void OnClickedButtonRestart() => _sceneTransition.LoadGameScene();
+    private void OnClickedButtonRestart() { _isPlay = false; _sceneTransition.LoadGameScene(); }
 
-    private void OnClickedButtonHome() => _sceneTransition.LoadMainScene();
+    private void OnClickedButtonHome() { _isPlay = false; _sceneTransition.LoadMainScene(); }
     #endregion
     #region Loaded
     private void OnLoadedStage(int stage) { _numberStage = stage; SetValuesAfterLoading(); }
@@ -78,18 +103,35 @@ public class GamePlayMamager : MonoBehaviour
         }
     }
 
-    private void OnTouchedPlatform()
+    private void OnTouchedBallGameDestroyer()
     {
-        _countShoot--;
+        _countLife--;
+        _menuUI.SetValue(_countBlock, _countLife);
 
-        if (_countShoot == 0)
+        if (_countLife == 0)
             EndGame(false, SoundManager.Type.SoundEndGame);
+        else
+            SpawnBall();
     }
 
     private void EndGame(bool isWin, SoundManager.Type typeSound)
     {
-        _menuUI.ShowResultPanel(isWin);
         _soundManager.UseSound(typeSound);
-        Time.timeScale = 0;
+        _menuUI.ShowResultPanel(isWin);
+    }
+
+    private void SpawnBall()
+    {
+        _ball.gameObject.SetActive(false);
+        _ball.gameObject.SetActive(true);
+        _ball.SetPosition(_player, _offsetPositionBallY);
+    }
+
+    private void SetStage()
+    {
+        if (_stages.Count > _numberStage)
+            _stage = _stages[_numberStage];
+        else
+            _stage = _stages[Random.Range(0, _stages.Count - 1)];
     }
 }

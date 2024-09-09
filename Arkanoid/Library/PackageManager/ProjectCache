@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638614032574421566
-    m_Hash: 2483161962
+      ticks: 638614050644834508
+    m_Hash: 2110775055
   m_LockFileStatus:
     m_FilePath: C:/Users/pro10/Desktop/Unity/Arkanoid/Arkanoid/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638614032574596990
-    m_Hash: 3789050481
+      ticks: 638614050644844466
+    m_Hash: 279065774
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:

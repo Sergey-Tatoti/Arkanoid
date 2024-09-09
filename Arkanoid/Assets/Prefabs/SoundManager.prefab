@@ -172,7 +172,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 9942851deef5cff43987960b7a8bde38, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.176
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -299,8 +299,8 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 301eff7741e1fa7439e88a3977293841, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
+  m_PlayOnAwake: 0
+  m_Volume: 0.213
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -828,7 +828,7 @@ MonoBehaviour:
   _audioSoundHitBall: {fileID: 6628549315122285888}
   _audioSoundDestroyBlock: {fileID: 850384943961306824}
   _audioSoundEndGame: {fileID: 3031576552789565223}
-  _audioSoundWinGame: {fileID: 0}
+  _audioSoundWinGame: {fileID: 8380518453617953338}
 --- !u!1 &7539195032669544925
 GameObject:
   m_ObjectHideFlags: 0
@@ -1001,7 +1001,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: db7f3ea38f2766d4d8d0d90ca836e996, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.386
+  m_Volume: 0.195
   m_Pitch: 1
   Loop: 1
   Mute: 0

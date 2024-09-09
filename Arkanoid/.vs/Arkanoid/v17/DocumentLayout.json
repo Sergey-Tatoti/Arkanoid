@@ -3,20 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\pro10\\Desktop\\Unity\\Arkanoid\\Arkanoid\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2194B913-A83D-7162-538B-103EE6ED2AD2}|Assembly-CSharp.csproj|c:\\users\\pro10\\desktop\\unity\\arkanoid\\arkanoid\\assets\\scripts\\3.player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2194B913-A83D-7162-538B-103EE6ED2AD2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\3.player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2194B913-A83D-7162-538B-103EE6ED2AD2}|Assembly-CSharp.csproj|C:\\Users\\pro10\\Desktop\\Unity\\Arkanoid\\Arkanoid\\assets\\scripts\\7.ball\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2194B913-A83D-7162-538B-103EE6ED2AD2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\7.ball\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2194B913-A83D-7162-538B-103EE6ED2AD2}|Assembly-CSharp.csproj|C:\\Users\\pro10\\Desktop\\Unity\\Arkanoid\\Arkanoid\\assets\\scripts\\3.player\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2194B913-A83D-7162-538B-103EE6ED2AD2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\3.player\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2194B913-A83D-7162-538B-103EE6ED2AD2}|Assembly-CSharp.csproj|C:\\Users\\pro10\\Desktop\\Unity\\Arkanoid\\Arkanoid\\assets\\scripts\\4.game\\gameplaymamager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2194B913-A83D-7162-538B-103EE6ED2AD2}|Assembly-CSharp.csproj|c:\\users\\pro10\\desktop\\unity\\arkanoid\\arkanoid\\assets\\scripts\\4.game\\gameplaymamager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2194B913-A83D-7162-538B-103EE6ED2AD2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\4.game\\gameplaymamager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2194B913-A83D-7162-538B-103EE6ED2AD2}|Assembly-CSharp.csproj|C:\\Users\\pro10\\Desktop\\Unity\\Arkanoid\\Arkanoid\\assets\\scripts\\8.block\\blockmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2194B913-A83D-7162-538B-103EE6ED2AD2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\8.block\\blockmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2194B913-A83D-7162-538B-103EE6ED2AD2}|Assembly-CSharp.csproj|C:\\Users\\pro10\\Desktop\\Unity\\Arkanoid\\Arkanoid\\assets\\scripts\\4.game\\gamemenuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2194B913-A83D-7162-538B-103EE6ED2AD2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\4.game\\gamemenuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2194B913-A83D-7162-538B-103EE6ED2AD2}|Assembly-CSharp.csproj|C:\\Users\\pro10\\Desktop\\Unity\\Arkanoid\\Arkanoid\\assets\\scripts\\5.another\\soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2194B913-A83D-7162-538B-103EE6ED2AD2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\5.another\\soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2194B913-A83D-7162-538B-103EE6ED2AD2}|Assembly-CSharp.csproj|C:\\Users\\pro10\\Desktop\\Unity\\Arkanoid\\Arkanoid\\assets\\scripts\\6.bonus\\gamebonus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2194B913-A83D-7162-538B-103EE6ED2AD2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\6.bonus\\gamebonus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2194B913-A83D-7162-538B-103EE6ED2AD2}|Assembly-CSharp.csproj|C:\\Users\\pro10\\Desktop\\Unity\\Arkanoid\\Arkanoid\\assets\\scripts\\5.another\\scenetransition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2194B913-A83D-7162-538B-103EE6ED2AD2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\5.another\\scenetransition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2194B913-A83D-7162-538B-103EE6ED2AD2}|Assembly-CSharp.csproj|C:\\Users\\pro10\\Desktop\\Unity\\Arkanoid\\Arkanoid\\assets\\scripts\\2.menu\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2194B913-A83D-7162-538B-103EE6ED2AD2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\2.menu\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\pro10\\desktop\\unity\\arkanoid\\arkanoid\\assets\\scripts\\9.stage\\stagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\9.stage\\stagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,32 +46,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Ball.cs",
-              "DocumentMoniker": "C:\\Users\\pro10\\Desktop\\Unity\\Arkanoid\\Arkanoid\\Assets\\Scripts\\3.Player\\Ball.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\3.Player\\Ball.cs",
-              "ToolTip": "C:\\Users\\pro10\\Desktop\\Unity\\Arkanoid\\Arkanoid\\Assets\\Scripts\\3.Player\\Ball.cs",
-              "RelativeToolTip": "Assets\\Scripts\\3.Player\\Ball.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAArAAAA",
+              "DocumentIndex": 2,
+              "Title": "BlockManager.cs",
+              "DocumentMoniker": "C:\\Users\\pro10\\Desktop\\Unity\\Arkanoid\\Arkanoid\\Assets\\Scripts\\8.Block\\BlockManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\8.Block\\BlockManager.cs",
+              "ToolTip": "C:\\Users\\pro10\\Desktop\\Unity\\Arkanoid\\Arkanoid\\Assets\\Scripts\\8.Block\\BlockManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\8.Block\\BlockManager.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwBAAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T14:14:52.073Z"
+              "WhenOpened": "2024-09-09T17:56:34.777Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\pro10\\Desktop\\Unity\\Arkanoid\\Arkanoid\\Assets\\Scripts\\3.Player\\Player.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\3.Player\\Player.cs",
-              "ToolTip": "C:\\Users\\pro10\\Desktop\\Unity\\Arkanoid\\Arkanoid\\Assets\\Scripts\\3.Player\\Player.cs",
-              "RelativeToolTip": "Assets\\Scripts\\3.Player\\Player.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
+              "DocumentIndex": 8,
+              "Title": "StageManager.cs",
+              "DocumentMoniker": "C:\\Users\\pro10\\Desktop\\Unity\\Arkanoid\\Arkanoid\\Assets\\Scripts\\9.Stage\\StageManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\9.Stage\\StageManager.cs",
+              "ToolTip": "C:\\Users\\pro10\\Desktop\\Unity\\Arkanoid\\Arkanoid\\Assets\\Scripts\\9.Stage\\StageManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\9.Stage\\StageManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T13:52:55.301Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-09T17:33:14.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SoundManager.cs",
+              "DocumentMoniker": "C:\\Users\\pro10\\Desktop\\Unity\\Arkanoid\\Arkanoid\\Assets\\Scripts\\5.Another\\SoundManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\5.Another\\SoundManager.cs",
+              "ToolTip": "C:\\Users\\pro10\\Desktop\\Unity\\Arkanoid\\Arkanoid\\Assets\\Scripts\\5.Another\\SoundManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\5.Another\\SoundManager.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAwwBMAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T17:04:42.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MenuManager.cs",
+              "DocumentMoniker": "C:\\Users\\pro10\\Desktop\\Unity\\Arkanoid\\Arkanoid\\Assets\\Scripts\\2.Menu\\MenuManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\2.Menu\\MenuManager.cs",
+              "ToolTip": "C:\\Users\\pro10\\Desktop\\Unity\\Arkanoid\\Arkanoid\\Assets\\Scripts\\2.Menu\\MenuManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\2.Menu\\MenuManager.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAYwDMAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T16:54:13.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SceneTransition.cs",
+              "DocumentMoniker": "C:\\Users\\pro10\\Desktop\\Unity\\Arkanoid\\Arkanoid\\Assets\\Scripts\\5.Another\\SceneTransition.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\5.Another\\SceneTransition.cs",
+              "ToolTip": "C:\\Users\\pro10\\Desktop\\Unity\\Arkanoid\\Arkanoid\\Assets\\Scripts\\5.Another\\SceneTransition.cs",
+              "RelativeToolTip": "Assets\\Scripts\\5.Another\\SceneTransition.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAkwCIAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T16:52:43.047Z"
             },
             {
               "$type": "Document",
@@ -61,21 +116,47 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\4.Game\\GameMenuUI.cs",
               "ToolTip": "C:\\Users\\pro10\\Desktop\\Unity\\Arkanoid\\Arkanoid\\Assets\\Scripts\\4.Game\\GameMenuUI.cs",
               "RelativeToolTip": "Assets\\Scripts\\4.Game\\GameMenuUI.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwD8AAAAFAAAA",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAkwE4AAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T13:43:05.204Z"
+              "WhenOpened": "2024-09-09T15:14:12.715Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "Ball.cs",
+              "DocumentMoniker": "C:\\Users\\pro10\\Desktop\\Unity\\Arkanoid\\Arkanoid\\Assets\\Scripts\\7.Ball\\Ball.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\7.Ball\\Ball.cs",
+              "ToolTip": "C:\\Users\\pro10\\Desktop\\Unity\\Arkanoid\\Arkanoid\\Assets\\Scripts\\7.Ball\\Ball.cs",
+              "RelativeToolTip": "Assets\\Scripts\\7.Ball\\Ball.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAkwD8AAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T15:13:01.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "GamePlayMamager.cs",
               "DocumentMoniker": "C:\\Users\\pro10\\Desktop\\Unity\\Arkanoid\\Arkanoid\\Assets\\Scripts\\4.Game\\GamePlayMamager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\4.Game\\GamePlayMamager.cs",
               "ToolTip": "C:\\Users\\pro10\\Desktop\\Unity\\Arkanoid\\Arkanoid\\Assets\\Scripts\\4.Game\\GamePlayMamager.cs",
               "RelativeToolTip": "Assets\\Scripts\\4.Game\\GamePlayMamager.cs",
-              "ViewState": "AQIAADsAAAAAAAAAAAAgwAgAAAAnAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T13:21:01.003Z"
+              "WhenOpened": "2024-09-09T09:02:31.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GameBonus.cs",
+              "DocumentMoniker": "C:\\Users\\pro10\\Desktop\\Unity\\Arkanoid\\Arkanoid\\Assets\\Scripts\\6.Bonus\\GameBonus.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\6.Bonus\\GameBonus.cs",
+              "ToolTip": "C:\\Users\\pro10\\Desktop\\Unity\\Arkanoid\\Arkanoid\\Assets\\Scripts\\6.Bonus\\GameBonus.cs",
+              "RelativeToolTip": "Assets\\Scripts\\6.Bonus\\GameBonus.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwB4AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T17:20:50.714Z"
             }
           ]
         }

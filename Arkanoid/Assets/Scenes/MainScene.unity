@@ -878,7 +878,6 @@ GameObject:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
-  - component: {fileID: 963194229}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -960,19 +959,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1689612599}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &963194229
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f115953296fcd742afdaeca1ee25b49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _isHorizontal: 1
 --- !u!1 &1037514501
 GameObject:
   m_ObjectHideFlags: 0
@@ -1137,7 +1123,7 @@ GameObject:
   - component: {fileID: 1286901917}
   - component: {fileID: 1286901919}
   m_Layer: 5
-  m_Name: Player
+  m_Name: BallMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1243,7 +1229,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _menuUI: {fileID: 1081451028}
   _menuBackGround: {fileID: 1037514505}
-  _player: {fileID: 1286901919}
+  _ball: {fileID: 1286901919}
   _gameSaves: {fileID: 2609153602663825243}
   _soundManager: {fileID: 572483510}
   _sceneTransition: {fileID: 53008607}
